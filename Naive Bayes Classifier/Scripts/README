@@ -1,0 +1,8 @@
+README for the Naive Bayes Classifier scripts used in Coding Assignment 2, USC course CSCI-544 (Applied Natural Language Processing), Spring 2018.
+
+The code consists of two scripts:
+- nblearn3.py: It trains on the labeled data and uses Naive Bayes to learn the labels of hotel reviews in the corpus. It stores the data in a test file “nbmodel.txt”.
+- hmmdecode3.py: It takes “nbmodel.txt” and the testing data as inputs and labels the reviews in the corpus using Naive Bayes. The results are stored in “nboutput.txt”.
+
+The scripts were written by Nishant Agarwal, agarwaln@usc.edu
+
