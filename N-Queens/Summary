@@ -25,4 +25,4 @@ First line: OK or FAIL, indicating whether a solution was found or not.
 If FAIL, any following lines are ignored.
 Next n lines: the n x n nursery, one line in the file per nursery row, including the baby lizards and trees. It will have a 0 where there is nothing, a 1 where you placed a baby lizard, and a 2 where there is a tree.
 
-Note that there can be more than one possible output
+Note that there can be more than one correct output
