@@ -1,7 +1,5 @@
-- A part-of-speech tagger for English (90% accuracy), Hindi (93% accuracy) and Chinese (87% accuracy).
-
-- Implemented using Hidden Markov Model and Viterbi decoding
-
-- Programming Language: Python
+A part-of-speech tagger for English (90% accuracy), Hindi (93% accuracy) and Chinese (87% accuracy).
+Implemented using Hidden Markov Model and Viterbi decoding
+Programming Language: Python
 
 The scripts have been written by Nishant Agarwal, agarwaln@usc.edu
