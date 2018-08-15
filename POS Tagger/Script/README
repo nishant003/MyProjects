@@ -1,11 +1,8 @@
 README for the part-of-speech tagging scripts used in Coding Assignment 1, USC course CSCI-544 (Applied Natural Language Processing), Spring 2018.
 
 The code consists of two scripts:
-
 - hmmlearn3.py: It trains on the tagged data and uses Hidden Markov Model to learn the tags of the words in the corpus. It stores the data in a test file “hmmmodel.txt”.
-
-- hmmdecode3.py: It takes “hmm model.txt” and the testing data as inputs and tags the words in the corpus using Hidden Markov Model. The results are stored in “hmmoutput.txt”.
-
+- hmmdecode3.py: It takes “hmmmodel.txt” and the testing data as inputs and tags the words in the corpus using Hidden Markov Model. The results are stored in “hmmoutput.txt”.
 
 The scripts were written by Nishant Agarwal, agarwaln@usc.edu
 
