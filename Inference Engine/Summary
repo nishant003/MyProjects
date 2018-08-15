@@ -1,0 +1,2 @@
+Inference Engine to determine validity of query statement based on statements present in knowledge base
+Implemented first-order logic using forward chaining, resolution and unification algorithms
