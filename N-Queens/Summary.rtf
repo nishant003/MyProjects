@@ -1,0 +1,37 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red46\green116\blue182;}
+{\*\expandedcolortbl;;\csgenericrgb\c18039\c45490\c71373;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 Project description\
+\
+You are a zookeeper in the reptile house. One of your rare South Pacific Tufted Wizzo lizards (Tufticus Wizzocus) has just had several babies. Your job is to find a place to put each baby lizard in a nursery.\
+However, there is a catch, the baby lizards have very long tongues. A baby lizard can shoot out its tongue and eat any other baby lizard before you have time to save it. As such, you want to make sure that no baby lizard can eat another baby lizard in the nursery (burp).\
+For each baby lizard, you can place them in one spot on a grid. From there, they can shoot out their tongue up, down, left, right and diagonally as well. Their tongues are very long and can reach to the edge of the nursery from any location.\
+In addition to baby lizards, your nursery may have some trees planted in it. Your lizards cannot shoot their tongues through the trees nor can you move a lizard into the same place as a tree. As such, a tree will block any lizard from eating another lizard if it is in the path. Additionally, the tree will block you from moving the lizard to that location.\
+\
+You will write a program that will take an input file that has an arrangement of trees and will output a new arrangement of lizards (and trees; as already mentioned, you can\'92t move the trees) such that no baby lizard can eat another one. You will be required to create a program that finds the solution. To find the solution you will use the following algorithms:\
+\
+- Breadth-first search (BFS)\
+- Depth-first search (DFS)\
+- Simulated annealing (SA).\
+\
+Input: The file input.txt in the current directory of your program will be formatted as follows:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 First line: \cf0 instruction of which algorithm to use: BFS, DFS or SA\
+\cf2 Second line: \cf0 strictly positive 32-bit integer n, the width and height of the square nursery\
+\cf2 Third line: \cf0 strictly positive 32-bit integer p, the number of baby lizards\
+\cf2 Next n lines: \cf0 the n x n nursery, one file line per nursery row (to show you where the trees are). It will have a 0 where there is nothing, and a 2 where there is a tree.\
+\
+Output: The file output.txt which your program creates in the current directory should be\
+formatted as follows:\
+\
+\cf2 First line: \cf0 OK or FAIL, indicating whether a solution was found or not.\
+If FAIL, any following lines are ignored.\
+\cf2 Next n lines: \cf0 the n x n nursery, one line in the file per nursery row, including the baby lizards and trees. It will have a 0 where there is nothing, a 1 where you placed a baby lizard, and a 2 where there is a tree.\
+\
+Note that there can be more than one output}
