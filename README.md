@@ -3,8 +3,11 @@ Some projects I have worked on in Artificial Intelligence and Natural Language P
 1. Naive Bayes Classifier
 
 •	A Naive Bayes classifier to detect sentiment (Positive/Negative) and validity (True/Fake) of hotel reviews
+
 •	Mean F1 score for sentiment analysis: 93%
+
 • Mean F1 score for validity analysis: 90%
+
 • Programming Language: Python
 
 
